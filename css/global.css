@@ -201,7 +201,7 @@ header .search-form input {
   height: 1044px;
   display: flex;
   align-items: center;
-  background: URL(/image/bg.jpg) no-repeat;
+  background: URL(../Image/bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
