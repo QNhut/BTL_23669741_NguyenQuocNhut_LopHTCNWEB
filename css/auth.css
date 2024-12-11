@@ -1,0 +1,30 @@
+.container-auth {
+  min-height: 80vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 75%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#login-form, #register-form {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.input-group-text, input[type='email'], input[type='password'] {
+  height: 38px;
+  max-height: 38px;
+}
